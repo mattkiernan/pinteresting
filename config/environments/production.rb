@@ -85,7 +85,7 @@ Rails.application.configure do
   #Need to set new URL
 config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
-# config/environments/production.rb
+# config/environments/production.rb sets paperclip to upload images to amazon s3
 config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
