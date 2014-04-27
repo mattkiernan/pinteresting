@@ -1,9 +1,6 @@
 <div class="jumbotron center">
-	<h2>Test Web App</h2>
-	
-<% if user_signed_in?%>
-<% else %>
+	<h2>Pinteresting</h2>
+	<p style="font-size:16px;">Pin stuff you like</p>
 	<p><%= link_to "Login" , new_user_session_path, class: "btn btn-default btn-lg" %>
 	<%= link_to "Sign Up" , new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
-	<%end%>
-</div
+</div>
